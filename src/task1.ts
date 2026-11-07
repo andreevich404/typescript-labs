@@ -16,7 +16,7 @@ export function formatInput(value: number | string | Date): string {
   }
 }
 
-console.log("Задача 1 — Форматирование");
+console.log("Задача 1 - Форматирование");
 console.log(formatInput(42.5));
 console.log(formatInput("  TypeScript  "));
 console.log(formatInput(new Date("2026-01-15T12:00:00Z")));

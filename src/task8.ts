@@ -41,7 +41,7 @@ export interface Book {
   year: number;
 }
 
-console.log("Задача 8 — Хранилище книг");
+console.log("Задача 8 - Хранилище книг");
 const books = new MemoryRepository<Book>();
 const book: Book = { id: "book-1", title: "Маленький принц", author: "Антуан де Сент-Экзюпери", year: 1943 };
 console.log("Создание:", books.create(book));

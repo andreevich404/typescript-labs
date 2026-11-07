@@ -17,7 +17,7 @@ export function deepFreeze<T>(obj: T): DeepReadonly<T> {
   return obj as DeepReadonly<T>;
 }
 
-console.log("Задача 9 — Глубокая заморозка");
+console.log("Задача 9 - Глубокая заморозка");
 const settings = deepFreeze({
   user: { name: "Иван", preferences: { theme: "dark" } },
   books: [{ title: "Маленький принц", metadata: { year: 1943 } }],

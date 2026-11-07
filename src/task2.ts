@@ -26,7 +26,7 @@ export function getColor(name: ColorName): { rgb: RGBColor; hex: string } {
   return { rgb, hex: rgbToHex(rgb) };
 }
 
-console.log("Задача 2 — Цвета");
+console.log("Задача 2 - Цвета");
 for (const name of Object.values(ColorName)) console.log(name, getColor(name));
 try {
   rgbToHex([256, 0, 0]);

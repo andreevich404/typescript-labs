@@ -9,7 +9,7 @@ export function chunkArray<T>(items: readonly T[], chunkSize: number): T[][] {
   return chunks;
 }
 
-console.log("Задача 7 — Разбиение массива");
+console.log("Задача 7 - Разбиение массива");
 const numbers: readonly number[] = Object.freeze([1, 2, 3, 4, 5]);
 console.log("Числа с остатком:", chunkArray(numbers, 2));
 console.log("Строки:", chunkArray(["a", "b", "c"], 2));

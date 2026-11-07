@@ -14,7 +14,7 @@ export function applyPipeline(value: unknown, ...steps: readonly unknown[]): unk
   }, value);
 }
 
-console.log("Задача 5 — Pipeline");
+console.log("Задача 5 - Pipeline");
 console.log(applyPipeline(5, (value) => value * 2));
 console.log(applyPipeline(5, (value) => value * 2, (value) => `Число: ${value}`));
 console.log(applyPipeline(

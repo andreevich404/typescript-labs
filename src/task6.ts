@@ -7,7 +7,7 @@ export function sumByStatus(invoices: readonly Invoice[]): { paid: number; free:
   }, { paid: 0, free: 0 });
 }
 
-console.log("Задача 6 — Суммы счетов");
+console.log("Задача 6 - Суммы счетов");
 const invoices: readonly Invoice[] = [
   { id: "1", amount: 100, status: "paid" },
   { id: "2", amount: 25, status: "free" },

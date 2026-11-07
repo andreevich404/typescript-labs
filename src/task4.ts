@@ -10,7 +10,7 @@ export function mergeTags(first: readonly string[], second: readonly string[]): 
   return [...new Set([...first, ...second])];
 }
 
-console.log("Задача 4 — Теги без мутаций");
+console.log("Задача 4 - Теги без мутаций");
 const original: readonly string[] = Object.freeze(["ts", "node", "ts"]);
 const extra: readonly string[] = Object.freeze(["node", "TS", "npm"]);
 console.log("Добавление:", addTag(original, "npm"));
