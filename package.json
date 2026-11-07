@@ -1,0 +1,21 @@
+{
+  "name": "typescript-labs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Лабораторная работа №8 — Основы TypeScript в Node.js",
+  "type": "module",
+  "author": "Толкачев Иван Андреевич, ФИТ-241",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "check": "tsc -p tsconfig.json --noEmit",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "test": "npm run build && node --test tests/*.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "typescript": "^7.0.2"
+  }
+}
